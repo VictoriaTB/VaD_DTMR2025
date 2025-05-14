@@ -9,7 +9,7 @@ GColoc_DTMR.R - Runs a coloc analysis for the chosen gene region
 SNPColoc_DTMR.R - Runs a coloc analysis for +/-500kb around each Cis/Trans MR instrument
 Ex_Exposure.txt - A simulated exposure (not actual data) for demonstrative use
 Ex_Outcome.txt - A simulated outcome (not actual data) for demonstrative use, for coloc this is a quantitative dataset
-Demo_Outputs.xlxs - Simulated results for comparative purposes
+Ex_Outputs.xlxs - Simulated results from the demo for comparative purposes
 
 ## Software used-
 R (version 4.4.0)
