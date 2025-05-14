@@ -23,7 +23,7 @@ plyr (version 1.8.9)
 
 To install R and RStudio visit (https://posit.co/download/rstudio-desktop/), this should take less than 30mins
 
-To install packages use the command install.packages("TwoSampleMR") for each package, this should take less than 5mins a package 
+To install packages use the command install.packages("") for each package, this should take less than 5mins a package 
 
 ## Instructions for Demo-
 Load Exposure and Outcome datasets as Exposure_GWAS and Outcome_GWAS respectively
