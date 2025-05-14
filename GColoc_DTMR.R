@@ -5,6 +5,9 @@
 ### An Exposure GWAS 
 ### An Outcome GWAS
 
+Exposure_GWAS <- 
+Outcome_GWAS <- 
+
 ### Column should be labeled as follows
 ## ID - rsid of snp
 ## CHROM - Chromosome
@@ -21,7 +24,8 @@
 Gene_Name <-       ##### Gene idenifer 
 Gene_UB <-         ##### Gene location upper bound 
 Gene_LB <-         ##### Gene location lower bound
-  
+Chromosome <-      ##### Gene chromosome
+
 ### The folling information is needed on the outcome
 Outcome_Name <-       ##### Outcome Name
 Exposure_Name <-       ##### Exposure Name
@@ -51,6 +55,7 @@ colnames(Gene_ColocSum) <- y
 MaxV <- Gene_UB + 500000
 LowV <- Gene_LB - 500000
 
+Exposure_GWAS <-  subset(Exposure_GWAS, CHROM == Chromosome ) ### extract cis-acting gene region
 Exposure_GWAS <-  subset(Exposure_GWAS, POS %in% c(paste(LowV):paste(MaxV) )) ### extract cis-acting gene region
 
 Exposure_GWAS <-  subset(Exposure_GWAS, Exposure_GWAS$EAF < 1 )
