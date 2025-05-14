@@ -6,6 +6,9 @@
 ### An Exposure protein GWAS -  
 ### An Outcome GWAS
 
+Exposure_GWAS <-
+Outcome_GWAS <- 
+
 ### Column should be labeled as follows
 ## ID - rsid of snp
 ## CHROM - Chromosome
