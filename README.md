@@ -11,12 +11,14 @@ Ex_Exposure.txt - A simulated exposure (not actual data) for demonstrative use
 Ex_Outcome.txt - A simulated outcome (not actual data) for demonstrative use, for coloc this is a quantitative dataset
 
 ## Software used-
-R ()
+R (version 4.4.0)
 R packages-
-TwoSampleMR ()
-stringr
-ieugwasr
-coloc
+TwoSampleMR (0.6.8)
+stringr (1.5.1)
+ieugwasr (1.0.3)
+coloc (5.2.3)
+dplyr (1.1.4)
+plyr (1.8.9)
 
 ## Instructions for Demo-
 Load Exposure and Outcome datasets as Exposure_GWAS and Outcome_GWAS respectively
