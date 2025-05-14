@@ -43,9 +43,9 @@ library(coloc)
 ### A table listing all posterior probability values, no of variants
 
 
-Gene_ColocSum <- data.frame(matrix(ncol = 12, nrow = 0))
+SNP_ColocSum <- data.frame(matrix(ncol = 12, nrow = 0))
 y <-  c("nsnps", "PP.H0", "PP.H1" , "PP.H2" , "PP.H3" , "PP.H4" , "Gene" , "A" , "B",  "CHROM" , "LowB" , "UpB" )
-colnames(Gene_ColocSum) <- y
+colnames(SNP_ColocSum) <- y
 
 ####### Analysis
 
@@ -186,7 +186,7 @@ cdf_summary <- data.frame(cdf_summary)
 
 colnames(cdf_summary) = c("nsnps", "PP.H0", "PP.H1" , "PP.H2" , "PP.H3" , "PP.H4" , "Gene" , "A" , "B" , "CHROM" , "LowB" , "UpB" )
 
-Gene_ColocSum <- rbind(Gene_ColocSum , cdf_summary)
+SNP_ColocSum <- rbind(SNP_ColocSum , cdf_summary)
 
 }
 
@@ -303,6 +303,6 @@ cdf_summary <- data.frame(cdf_summary)
 
 colnames(cdf_summary) = c("nsnps", "PP.H0", "PP.H1" , "PP.H2" , "PP.H3" , "PP.H4" , "Gene" , "A" , "B" , "CHROM" , "LowB" , "UpB" )
 
-Gene_ColocSum <- rbind(Gene_ColocSum , cdf_summary)
+SNP_ColocSum <- rbind(SNP_ColocSum , cdf_summary)
 
 }
