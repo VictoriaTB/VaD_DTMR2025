@@ -5,6 +5,9 @@
 ### An Exposure GWAS 
 ### An Outcome GWAS
 
+Exposure_GWAS <- 
+Outcome_GWAS <- 
+
 ### Column should be labeled as follows
 ## ID - rsid of snp
 ## CHROM - Chromosome
@@ -21,7 +24,8 @@
 Gene_Name <-       ##### Gene idenifer 
 Gene_UB <-         ##### Gene location upper bound 
 Gene_LB <-         ##### Gene location lower bound
-  
+Chromosome <-       ##### Gene Chromosome  
+
 ### The following information is needed on the outcome
 Outcome_Name <-       ##### Outcome Name
 Exposure_Name <-       ##### Exposure Name
@@ -85,9 +89,9 @@ for (k in 1: nrow(IV_SNPs)) {
   MaxV <- Position + 500000
   LowV <- Position - 500000
   
-  Exp_Locus <- subset(Exp_GWAS, CHROM  %in% c(paste(Chromosome)))
+  Exp_Locus <- subset(Exp_GWAS, chr.exposure  %in% c(paste(Chromosome)))
   
-  Exp_Locus <-  subset(Exp_Locus, POS %in% c(paste(LowV):paste(MaxV) ))
+  Exp_Locus <-  subset(Exp_Locus, pos.exposure %in% c(paste(LowV):paste(MaxV) ))
   
 Outcome_GWAS <-  subset(Outcome_GWAS, Outcome_GWAS$EAF < 1 )
 Outcome_GWAS <-  subset(Outcome_GWAS, Outcome_GWAS$P.value > 0 )
@@ -199,9 +203,9 @@ for (k in 1: nrow(IV_SNPs)) {
   MaxV <- Position + 500000
   LowV <- Position - 500000
   
-  Exp_Locus <- subset(Exp_GWAS, CHROM  %in% c(paste(Chromosome)))
+  Exp_Locus <- subset(Exp_GWAS, chr.exposure  %in% c(paste(Chromosome)))
   
-  Exp_Locus <-  subset(Exp_Locus, POS %in% c(paste(LowV):paste(MaxV) ))
+  Exp_Locus <-  subset(Exp_Locus, pos.exposure %in% c(paste(LowV):paste(MaxV) ))
   
 
 Outcome_GWAS <-  subset(Outcome_GWAS, Outcome_GWAS$EAF < 1 )
