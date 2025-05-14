@@ -25,10 +25,15 @@ Load Exposure and Outcome datasets as Exposure_GWAS and Outcome_GWAS respectivel
 The following information can be added to the R script in the relevant sections if required
 
 Gene_Name <- "PCSK9"       ##### Gene identifer 
+
 Gene_UB <-  55064852      ##### Gene location upper bound 
+
 Gene_LB <- 55039548         ##### Gene location lower bound
+
 Chromosome <- 1     ##### Gene Chromosome
+
 Outcome_Name <- "VAD_Test"     ##### Outcome Name
+
 Exposure_Name <- "PCSK9"      ##### Exposure Name
 
 Each Script should take less than 10 minutes to run for each exposure/outcome comparison
