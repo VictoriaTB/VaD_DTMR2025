@@ -13,12 +13,12 @@ Ex_Outcome.txt - A simulated outcome (not actual data) for demonstrative use, fo
 ## Software used-
 R (version 4.4.0)
 R packages-
-TwoSampleMR (0.6.8)
-stringr (1.5.1)
-ieugwasr (1.0.3)
-coloc (5.2.3)
-dplyr (1.1.4)
-plyr (1.8.9)
+TwoSampleMR (version 0.6.8)
+stringr (version 1.5.1)
+ieugwasr (version 1.0.3)
+coloc (version 5.2.3)
+dplyr (version 1.1.4)
+plyr (version 1.8.9)
 
 ## Instructions for Demo-
 Load Exposure and Outcome datasets as Exposure_GWAS and Outcome_GWAS respectively
