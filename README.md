@@ -9,6 +9,7 @@ GColoc_DTMR.R - Runs a coloc analysis for the chosen gene region
 SNPColoc_DTMR.R - Runs a coloc analysis for +/-500kb around each Cis/Trans MR instrument
 Ex_Exposure.txt - A simulated exposure (not actual data) for demonstrative use
 Ex_Outcome.txt - A simulated outcome (not actual data) for demonstrative use, for coloc this is a quantitative dataset
+Demo_Outputs.xlxs - Simulated results for comparative purposes
 
 ## Software used-
 R (version 4.4.0)
@@ -19,6 +20,10 @@ ieugwasr (version 1.0.3)
 coloc (version 5.2.3)
 dplyr (version 1.1.4)
 plyr (version 1.8.9)
+
+To install R and RStudio visit (https://posit.co/download/rstudio-desktop/), this should take less than 30mins
+
+To install packages use the command install.packages("TwoSampleMR") for each package, this should take less than 5mins a package 
 
 ## Instructions for Demo-
 Load Exposure and Outcome datasets as Exposure_GWAS and Outcome_GWAS respectively
