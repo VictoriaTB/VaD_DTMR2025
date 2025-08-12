@@ -41,9 +41,6 @@ Analysis performed using:
 
 ---
 
-
----
-
 ## Installing Packages
 ```r
 install.packages(c("TwoSampleMR", "stringr", "ieugwasr", "coloc", "dplyr", "plyr"))
@@ -122,7 +119,7 @@ Example input and output files are provided in the repository for reference.
 
 ## Demo Instructions
 
-Load the example exposure and outcome datasets as follows:
+Load the example exposure and outcome datasets as follows and add the following parameters to the start of the script:
 
 ```r
 Exposure_GWAS <- read.table("Ex_Exposure.txt", header = TRUE)
