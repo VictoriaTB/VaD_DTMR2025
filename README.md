@@ -22,7 +22,7 @@ Analysis performed using:
 
 ### Required R Packages
 
-| Package       | Version | Ref        |
+| Package       | Version | Ref (PMID) |
 |---------------|---------|------------|
 | TwoSampleMR   | 0.6.8   | [29846171](https://pubmed.ncbi.nlm.nih.gov/29846171/) |
 | stringr       | 1.5.1   |            |
