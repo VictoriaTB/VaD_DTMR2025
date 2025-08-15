@@ -22,14 +22,14 @@ Analysis performed using:
 
 ### Required R Packages
 
-| Package       | Version |
-|---------------|---------|
-| TwoSampleMR   | 0.6.8   |
-| stringr       | 1.5.1   |
-| ieugwasr      | 1.0.3   |
-| coloc         | 5.2.3   |
-| dplyr         | 1.1.4   |
-| plyr          | 1.8.9   |
+| Package       | Version | Ref        |
+|---------------|---------|------------|
+| TwoSampleMR   | 0.6.8   | [29846171](https://pubmed.ncbi.nlm.nih.gov/29846171/) |
+| stringr       | 1.5.1   |            |
+| ieugwasr      | 1.0.3   | [32706130](https://pubmed.ncbi.nlm.nih.gov/32706130/) |
+| coloc         | 5.2.3   | [24830394](https://pubmed.ncbi.nlm.nih.gov/24830394/) |
+| dplyr         | 1.1.4   |            |
+| plyr          | 1.8.9   |            |
 
 ---
 
